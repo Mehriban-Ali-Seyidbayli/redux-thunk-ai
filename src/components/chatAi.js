@@ -1,6 +1,4 @@
-import axios from "axios";
 import { useDispatch, useSelector } from "react-redux";
-import { ActionTypes } from "../redux/constants/actionType";
 import { getAnswer, getDataStart } from "../redux/actions/chatActions";
 import { useState } from "react";
 
